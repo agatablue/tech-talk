@@ -4,12 +4,17 @@ body {
   font-family: sans-serif;
 }
 
-.flexset {
+.flex-space-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .container {
   margin: 0 auto;

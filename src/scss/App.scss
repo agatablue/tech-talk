@@ -1,5 +1,7 @@
 
 $accentColor: #0086c3;
+$secondColor: #29b6f6;
+$lightColor: white;
 
 header {
   background-color: $accentColor;
@@ -23,5 +25,38 @@ header {
     }
   }
 
+}
+
+.main-content {
+  article {
+    width:40%;
+  }
+  .img-right {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background-image: url("../images/bird.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+  }
+}
+
+footer {
+  background-color: $secondColor;
+  color: $lightColor;
+  ul {
+    margin:0;
+    padding: 0;
+    li {
+      display: inline-block;
+      padding-right:10px;
+      img {
+        width:30px;
+        height:30px;
+      }
+    }
+    
+  }
 }
 

@@ -13,3 +13,28 @@ header {
       padding-left: 15px; }
       header .navbar li a {
         color: white; }
+
+.main-content article {
+  width: 40%; }
+
+.main-content .img-right {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("../images/bird.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+footer {
+  background-color: #29b6f6;
+  color: white; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 10px; }
+      footer ul li img {
+        width: 30px;
+        height: 30px; }
