@@ -27,3 +27,11 @@ npm start
 ## Exercises
 
 1. Adding simple HTML structure (JSX)
+
+
+
+## Production
+
+```
+npm run build
+```

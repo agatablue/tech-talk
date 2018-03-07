@@ -1,0 +1,15 @@
+header {
+  background-color: #0086c3; }
+  header .logo {
+    display: block; }
+    header .logo img {
+      width: 80px;
+      height: 80px; }
+  header .navbar {
+    margin: 0;
+    padding: 0; }
+    header .navbar li {
+      display: inline-block;
+      padding-left: 15px; }
+      header .navbar li a {
+        color: white; }
