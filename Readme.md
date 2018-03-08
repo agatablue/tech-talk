@@ -22,7 +22,7 @@ Tutorial prepared on https://github.com/facebook/create-react-app
 
 ## Exercises
 
-1. Adding simple HTML structure (JSX)
+1. Adding simple HTML structure (JSX) - (branch master)
 2. 
 
 
