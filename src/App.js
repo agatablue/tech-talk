@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import fbicon from './images/fb.svg';
 import yticon from './images/yt.svg'
 import './scss/App.css';
