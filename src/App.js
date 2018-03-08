@@ -13,7 +13,7 @@ class Header extends Component {
             </a>
             <nav className="navbar">
               <ul>
-                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#about">ABOUT </a></li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#contact">CONTACT</a></li>
@@ -38,11 +38,28 @@ class Section extends Component {
 }
 
 class Footer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0
+    }
+  }
+
+  handleClick = () => {
+    this.setState({
+      counter: this.state.counter + 1
+    })
+  }
+
+
   render() {
     return  <footer>
     <div className="container  flex-space-between">
-      <p>You may also contact me through the social networks like</p>
-      <ul>
+      <div>
+        <p>Licznik: {this.state.counter}</p>
+        <button onClick={this.handleClick}>Klik</button>
+     </div>
+       <ul>
           <li>
             <a href="https://www.facebook.com/">
               <img src={fbicon} alt="Ikona FB" />
