@@ -30,7 +30,7 @@ class Section extends Component {
       <article>
         <h2>About me</h2>
         <h5><strong>MY STORY</strong></h5> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>My name is {this.props.author} and I am Front-end developer. I have {this.props.experience} years of experience.</p>
       </article>
       <div className="img-right" ></div>
   </section>
@@ -63,7 +63,7 @@ class App extends Component {
   render() {
     return  <div>
        <Header />
-       <Section />
+       <Section author="Agata Malec-Sromek" experience={5}/>
        <Footer/>
     </div>
 
