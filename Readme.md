@@ -27,7 +27,6 @@ Tutorial prepared on https://github.com/facebook/create-react-app
 3. Add to section some props, for example name nad your job experinece and render it at Section component - (props) - (branch props)
 4. Add simple state in Footer. This state should count button click. Change state after button clicking. (events) - (branch state)
 
-
 ## Production
 
 ```
