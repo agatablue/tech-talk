@@ -6,6 +6,11 @@ import './scss/App.css';
 
 class Header extends Component {
   render() {
+    const items = ["ABOUT", "SERVICES", "PORTFOLIO"]
+    const elementsLi = items.map( function(elem) {
+      return <li key={elem}> <a href="#"> {elem} </a> </li>
+    })
+
       return <header>
         <div className="container flex-space-between">
             <a href="./" className="logo">
@@ -13,10 +18,7 @@ class Header extends Component {
             </a>
             <nav className="navbar">
               <ul>
-                <li><a href="#about">ABOUT </a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                {elementsLi}
               </ul>
             </nav>
           </div>
@@ -56,7 +58,7 @@ class Counter extends Component {
   componentWillUnmount() {
     clearInterval(this.idInterval);
   }
-
+ 
   render() {
     return  <div>
       <p>Licznik: {this.state.counter}</p>
